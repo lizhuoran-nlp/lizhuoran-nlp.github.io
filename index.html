@@ -7,7 +7,7 @@ layout: default
     <td style="padding:2.5%;width:66%;vertical-align:middle;">
       <h1>{{ site.name }}</h1>
       <p>
-        I am a postdoctoral researcher at the {{ site.affiliation }}, advised by Professor Xiaojie Wang.
+        I am a postdoctoral at the {{ site.affiliation }}, advised by Professor Xiaojie Wang.
       </p>
       <p>
         My research focuses on cross-lingual transfer, multilingual large language models, and self-improvement in language models.
@@ -65,7 +65,7 @@ layout: default
       {% assign title_link = post.paper | default: post.website | default: post.code %}
       <h3 style="margin-bottom:0.2em;">{% if title_link %}<a href="{{ title_link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</h3>
       <p style="margin:0;">{{ post.authors }}</p>
-      <p style="margin:0.35em 0;"><em>{{ post.venue }}</em>, {{ post.year | default: post.date | date: "%Y" }}</p>
+      <p style="margin:0.35em 0;"><em>{{ post.venue }}</em>, {% if post.year %}{{ post.year }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
       <p>{{ post.excerpt | strip_html }}</p>
     </td>
   </tr>
