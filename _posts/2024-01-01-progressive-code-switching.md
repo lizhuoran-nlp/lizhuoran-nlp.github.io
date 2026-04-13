@@ -8,4 +8,4 @@ authors: "<strong><u>Zhuoran Li</u></strong>, Chunming Hu, Junfan Chen, Zhijun C
 venue: "IJCAI"
 paper: "https://www.ijcai.org/proceedings/2024/0706.pdf"
 ---
-Progressive code-switching to improve zero-shot cross-lingual transfer.
+<!-- Progressive code-switching to improve zero-shot cross-lingual transfer. -->

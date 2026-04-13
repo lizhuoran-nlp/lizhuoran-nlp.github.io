@@ -8,4 +8,4 @@ authors: "<strong><u>Zhuoran Li</u></strong>, Rui Xu, Jian Yang, Junnan Liu, Zhi
 venue: "Findings of ACL"
 website: "https://lizhuoran-nlp.github.io/"
 ---
-Steerable model merging for enhancing multilingual reasoning performance.
+<!-- Steerable model merging for enhancing multilingual reasoning performance. -->

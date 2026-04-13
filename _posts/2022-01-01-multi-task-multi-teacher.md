@@ -8,4 +8,4 @@ authors: "<strong><u>Zhuoran Li</u></strong>, Chunming Hu, Xiaohui Guo, Junfan C
 venue: "ACL"
 paper: "https://aclanthology.org/2022.acl-long.14.pdf"
 ---
-An unsupervised multi-task and multi-teacher framework for cross-lingual named entity recognition.
+<!-- An unsupervised multi-task and multi-teacher framework for cross-lingual named entity recognition. -->
