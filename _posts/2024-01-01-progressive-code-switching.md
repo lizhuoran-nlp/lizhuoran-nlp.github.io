@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Improving Zero-Shot Cross-Lingual Transfer via Progressive Code-Switching"
-date: 2024-01-01 00:00:00 +0800
+date: 2024-06-01 12:00:00 +0800
 image: images/pcs.png
 authors: "<strong><u>Zhuoran Li</u></strong>, Chunming Hu, Junfan Chen, Zhijun Chen, Xiaohui Guo, Richong Zhang"
 venue: "IJCAI"

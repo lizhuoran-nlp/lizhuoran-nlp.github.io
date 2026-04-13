@@ -1,4 +1,4 @@
-# Zhuoran Li Homepage
+<!-- # Zhuoran Li Homepage -->
 
 This repository contains the source for Zhuoran Li's academic homepage.
 
