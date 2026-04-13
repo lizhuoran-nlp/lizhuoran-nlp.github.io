@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} · {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
+    <meta name="author" content="{{ site.name }}">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tr>
+        <td style="padding:0;">
+          {{ content }}
+          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tr>
+              <td style="padding:0;">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Template adapted from <a style="font-size:small;" href="https://github.com/leonidk/leonidk.github.io">Leonid Keselman's Jekyll fork</a>, originally based on <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

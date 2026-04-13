@@ -1,0 +1,29 @@
+name: Zhuoran Li
+description: Researcher in cross-lingual transfer, multilingual LLMs, and multilingual reasoning
+avatar: images/me.jpg
+url: "https://lizhuoran-nlp.github.io"
+email: "lzr@bupt.edu.cn"
+github_username: "lizhuoran-nlp"
+google_scholar: "https://scholar.google.com.hk/citations?user=Hh-IHMoAAAAJ&hl=en"
+affiliation: "School of Artificial Intelligence, Beijing University of Posts and Telecommunications"
+location: "Xitucheng Road 10, Haidian District, Beijing"
+permalink: /:title/
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - .DS_Store
