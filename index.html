@@ -62,9 +62,10 @@ layout: default
       {% endif %}
     </td>
     <td style="padding:2.5%;width:75%;vertical-align:middle;">
-      <h3 style="margin-bottom:0.2em;">{{ post.title }}</h3>
+      {% assign title_link = post.paper | default: post.website | default: post.code %}
+      <h3 style="margin-bottom:0.2em;">{% if title_link %}<a href="{{ title_link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</h3>
       <p style="margin:0;">{{ post.authors }}</p>
-      <p style="margin:0.35em 0;"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+      <p style="margin:0.35em 0;"><em>{{ post.venue }}</em>, {{ post.year | default: post.date | date: "%Y" }}</p>
       <p>{{ post.excerpt | strip_html }}</p>
     </td>
   </tr>
