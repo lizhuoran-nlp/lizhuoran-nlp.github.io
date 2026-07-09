@@ -6,6 +6,6 @@ year: 2026
 image: images/st-merge.png
 authors: "<strong><u>Zhuoran Li</u></strong>, Rui Xu, Jian Yang, Junnan Liu, Zhijun Chen, Qianren Mao, Hongcheng Guo, Jiaheng Liu, Likang Xiao, Ming Li, Xiaojie Wang"
 venue: "Findings of ACL"
-website: "https://lizhuoran-nlp.github.io/"
+website: "https://aclanthology.org/2026.findings-acl.1856.pdf"
 ---
 <!-- Steerable model merging for enhancing multilingual reasoning performance. -->
